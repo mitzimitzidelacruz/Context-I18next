@@ -13,8 +13,9 @@ function App() {
     <div className="App">
       <Nav/>
       <div className='pic'>
-        <img className='pic1' src="./me.jpeg" alt="me"/>
-      </div>
+        <img className='pic1' src="./me1.jpeg" alt="me"/>
+      </div> 
+     
       <div className='tittle'>
         <h1>{t("myname")}</h1>
       </div>
@@ -33,7 +34,25 @@ function App() {
       <div className='tec'>
         <p>{t("tec")}</p>
       </div>
+     <table className='table'>
+      <tr>
+      <td></td>
+        <td>ANGULAR</td>
+        <td></td>
+        <td></td>
+        <td>MONGO DB</td>
+        <td></td>
+        <td></td>
+        <td>JS</td>
+        <td></td>
+        <td></td>
+        <td>REACT.JS</td>
+        <td></td>   
+      </tr>
+     </table>
     </div>
+
+    
   )
 }
 
