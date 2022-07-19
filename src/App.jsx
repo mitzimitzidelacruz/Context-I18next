@@ -23,6 +23,7 @@ function App() {
       <div className='info'>
         <p>{t("info")}</p>
         <p>{t("info1")}</p>
+        <p>{t("info2")}</p>
 
       </div>
       <div className="card">
