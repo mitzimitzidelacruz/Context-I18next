@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <Nav/>
       <div className='pic'>
-        <img classname='img' src="./public/me.jpeg" alt="me" />
+        <img className='pic1' src="./me.jpeg" alt="me"/>
       </div>
       <div className='tittle'>
         <h1>{t("myname")}</h1>
@@ -21,12 +21,17 @@ function App() {
       
       <div className='info'>
         <p>{t("info")}</p>
+        <p>{t("info1")}</p>
 
       </div>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           {t("btn")} {count}
         </button>
+      </div>
+
+      <div className='tec'>
+        <p>{t("tec")}</p>
       </div>
     </div>
   )

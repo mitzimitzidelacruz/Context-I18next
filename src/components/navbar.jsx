@@ -10,7 +10,7 @@ const Nav = () => {
 
     return (
         <nav>
-            <div className='options'>
+            <div className='navbar'>
                 <a href="/home" className='hover-underline-animation'> Home </a>
                 <a className='hover-underline-animation' onClick={() => changeLanguage("en")}> Inglés </a>
                 <a className='hover-underline-animation' onClick={() => changeLanguage("es")}> Español </a>
